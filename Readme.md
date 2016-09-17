@@ -1,6 +1,6 @@
 Learning Functional Programming principles using Scala
 
-Week1
+# Week1
   - Programming Paradigms
   - Evaluation Strategies and termination (Call by value and name)
   - Conidtional and Value definitions (val, def)
