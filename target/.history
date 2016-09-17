@@ -9,3 +9,6 @@ run
 submit
 subt gautamkshitij@gmail.com ILU@nexus4
 submit 
+clean
+run
+:quit
