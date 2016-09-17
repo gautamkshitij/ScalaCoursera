@@ -2,7 +2,8 @@ object SquareRoot {
 
 
   def squareRootIterative(initial: Double, number: Int): Double = {
-
+    if (number == 0) return number
+    if (initial == 0) return -1;
     if (correctResult(initial, number)) {
       initial;
     }
@@ -14,6 +15,7 @@ object SquareRoot {
 
   def improve(initial: Double, number: Int): Double = {
 
+    if (initial == 0) return -1
     (initial + number / initial) / 2;
 
 
