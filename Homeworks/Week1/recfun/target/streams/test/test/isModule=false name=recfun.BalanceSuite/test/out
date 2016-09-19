@@ -1,0 +1,29 @@
+[0m[[0minfo[0m] [0m[32mBalanceSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- balance: '(if (zero? x) max (/ 1 x))' is balanced[0m[0m
+[0m[[0minfo[0m] [0m[32m- balance: 'I told him ...' is balanced[0m[0m
+[0m[[0minfo[0m] [0m[31m- balance: ':-)' is unbalanced *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: empty.tail[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike$class.tail(TraversableLike.scala:449)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.AbstractTraversable.tail(Traversable.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.loop$1(Main.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balance(Main.scala:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$3.apply$mcV$sp(BalanceSuite.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$3.apply(BalanceSuite.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$3.apply(BalanceSuite.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- balance: counting is not enough *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: empty.tail[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.TraversableLike$class.tail(TraversableLike.scala:449)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.AbstractTraversable.tail(Traversable.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.loop$1(Main.scala:56)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balance(Main.scala:67)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$4.apply$mcV$sp(BalanceSuite.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$4.apply(BalanceSuite.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$4.apply(BalanceSuite.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
